@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  border: 1px solid #000 !important;
+}
+.collapse {
+  display: block !important;
+}
+.card {
+  border: 1px solid #000;
+}
+.fs-6 {
+  font-size: 0.8rem;
+}
+.flex-container {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+select.form-select {
+  box-shadow: none !important;
+  color: #000 !important;
+  border: 1px solid #000;
+}
+select.form-select:focus {
+  border: 1px solid #000;
+}
+button.btn.btn-danger {
+  line-height: 1;
+  padding: 10px 10px;
+  font-size: 0.8rem;
+}
+.user-select-all {
+  cursor: pointer;
+}
+.navbar-brand {
+  font-weight: 700 !important;
+}
+svg {
+  cursor: pointer;
+}
+.card.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+form input {
+  border: 1px solid #000 !important;
+}
+button#dropdown-basic:focus {
+  outline: none;
+  box-shadow: none;
+}
+.dropdown-menu {
+  min-width: 5rem !important;
+}
+/* pagination section */
+ul.paginateBtn {
+  display: flex;
+  justify-content: center;
+}
+ul.paginateBtn li {
+  list-style-type: none;
+  padding: 10px;
+}
+ul.paginateBtn li a {
+  text-decoration: none;
+  line-height: 1;
+  padding: 10px 10px;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+ul.paginateBtn li.disBtn a {
+  pointer-events: none;
+  opacity: 0.65;
+}
+ul.paginateBtn li.actBtn a {
+  color: #fff;
+}
+ul.paginateBtn li.actBtn a:hover {
+  color: #fff;
+}
+ul.paginateBtn li a[role="button"]:hover {
+  color: #fff;
+}
